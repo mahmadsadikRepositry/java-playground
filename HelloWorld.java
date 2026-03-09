@@ -32,6 +32,8 @@ class HelloWorld {
         String country[] = {"India","Usa","Canada"};
         
         System.out.println(Arrays.toString(country));
+        System.out.println(Arrays.toString(marks));
+
 
     }
 }
