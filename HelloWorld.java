@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 class HelloWorld {
     public static void main(String[] args) {
         System.out.println("Hello World!");
@@ -20,7 +22,17 @@ class HelloWorld {
         //boolean
         boolean isPassed = true;
 
+        //Non-Primitive Data Types
+        //String 
+        String name ="new to java";
+        //int 
+        int marks[] = {80,75,90};
+
+        //string Arrays
+        String country[] = {"India","Usa","Canada"};
         
+        System.out.println(Arrays.toString(country));
+
     }
 }
 
